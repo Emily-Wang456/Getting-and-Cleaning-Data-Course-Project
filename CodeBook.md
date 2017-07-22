@@ -4,33 +4,32 @@
 * type: contains information which data set is this observation collected from(test or train).
 * activity: contains information which activity is performed when this collected.
 * subject: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-* These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+* These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ;
+tGravityAcc-XYZ;
+tBodyAccJerk-XYZ;
+tBodyGyro-XYZ;
+tBodyGyroJerk-XYZ;
+tBodyAccMag;
+tGravityAccMag;
+tBodyAccJerkMag;
+tBodyGyroMag;
+tBodyGyroJerkMag;
+fBodyAcc-XYZ;
+fBodyAccJerk-XYZ;
+fBodyGyro-XYZ;
+fBodyAccMag;
+fBodyAccJerkMag;
+fBodyGyroMag;
+fBodyGyroJerkMag;
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
 
-##Data & Transformation
+## Data & Transformation
 * col_names: Data read from features
 * test_set: Data read from test set
 * train_set: Data read from training set
